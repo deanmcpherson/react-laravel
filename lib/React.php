@@ -37,6 +37,10 @@
       return $this->react;
     }
 
+    public function execute($js) {
+      return $this->react->executeJS($js);
+    }
+
     /**
      * Render a ReactJS component
      * @param  string $component Name of the component object
