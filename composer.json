@@ -5,9 +5,15 @@
   "keywords": ["react", "reactjs", "laravel"],
   "require": {
     "illuminate/support": "~5.0",
-    "deanmcpherson/react-php-v8js": "dev-master",
+    "deanmcpherson/react-php-v8js": "master",
     "koala-framework/composer-extra-assets": "~1.1"
   },
+    "repositories": [
+        {
+            "url": "https://github.com/deanmcpherson/react-php-v8js.git",
+            "type": "git"
+        }
+    ],
   "require-dev": {
     "phpunit/phpunit": "~4.0.0@stable"
   },
