@@ -11,7 +11,7 @@
   ],
   "require": {
     "illuminate/support": "~5.0",
-    "deanmcpherson/react-php-v8js": "dev-master",
+    "deanmcpherson/react-php-v8js": "*",
     "koala-framework/composer-extra-assets": "~1.1"
   },
 
