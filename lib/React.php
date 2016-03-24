@@ -38,7 +38,7 @@
     }
 
     public function execute($js) {
-      return $this->react->executeJS($js);
+      return $this->getReact()->executeJS($js);
     }
 
     /**
