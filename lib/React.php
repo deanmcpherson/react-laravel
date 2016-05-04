@@ -41,6 +41,10 @@
       return $this->getReact()->executeJS($js);
     }
 
+    public function disablePrerender() {
+      $this->defaultOptions['prerender'] = false;
+    }
+
     /**
      * Render a ReactJS component
      * @param  string $component Name of the component object
